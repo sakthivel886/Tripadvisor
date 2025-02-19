@@ -27,3 +27,18 @@ const initSliders = () => {
 }
 
 window.addEventListener("load", initSliders)
+
+const initSlider1 = () => {
+    const imageList = document.querySelector(".slider-wrapper-1 .image-list-1")
+    const slideButtons = document.querySelectorAll(".slider-wrapper-1 .slide-button-1")
+
+    slideButtons.forEach(button => {
+        button.addEventListener("click", () => {
+            const direction = button.id === "prev-slide-1" ? -1 : 1
+            const scrollAmount = imageList.clientWidth * direction
+            imageList.scrollBy({ left: scrollAmount, behavior: "smooth"})
+        })
+    })
+}
+
+window.addEventListener("load", initSlider1)
