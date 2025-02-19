@@ -374,4 +374,10 @@ body {
     .main-img__desc {
         font-size: 10px;
     }
+    .slider-wrapper button{
+        display: none;
+    }
+    .slider-wrappers button{
+        display: none;
+    }
 }
