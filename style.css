@@ -6,6 +6,31 @@
 body {
     font-family: "Poppins", serif;
 }
+.navbar-card {
+    position: fixed;
+    top: 0;
+    left: -60%;
+    background-color: black;
+    height: 100vh;
+    width: 60%;
+    z-index: 3;
+    color: white;
+    transition: 1s;
+    padding: 30px;
+}
+.navbar-card h1 {
+    text-align: end;
+    cursor: pointer;
+}
+.navbar-card h2 {
+    cursor: pointer;
+    padding-top: 13px;
+    padding-bottom: 13px;
+}
+.navbar-card hr {
+    border-width: 1px;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -679,10 +704,10 @@ body {
 }
 .about_us_clone-terms{
     display: flex;
+    flex-wrap: wrap;
+    gap: 7px;
     text-decoration: underline;
     margin-bottom: 8px;
-}
-.about_us_clone-terms h4{
     margin-top: 4px;
 }
 .about_us_clone {

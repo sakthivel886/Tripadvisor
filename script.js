@@ -1,3 +1,17 @@
+// navbar 
+
+var sidenav = document.querySelector(".navbar-card")
+
+function showNavbar() {
+    sidenav.style.left = "0"
+}
+
+function closeNavbar() {
+    sidenav.style.left = "-60%"
+}
+
+// slide image
+
 const initSlider = () => {
     const imageList = document.querySelector(".slider-wrapper .image-list")
     const slideButtons = document.querySelectorAll(".slider-wrapper .slide-button")
