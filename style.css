@@ -261,7 +261,6 @@ body {
 .slider-wrapper .image-list {
     display: grid;
     gap: 18px;
-    margin-bottom: px;
     overflow-x: auto;
     scrollbar-width: none;
     grid-template-columns: repeat(10, 1fr);
@@ -579,7 +578,6 @@ body {
     display: flex;
     justify-content: center;
     background-color: rgb(242, 242, 242);
-    margin-top: 40px;
     padding-top: 30px;
     padding-bottom: 30px;
 }
