@@ -226,11 +226,10 @@ body {
     width: 95%;
 }
 .container h1 {
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .container p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .slider-wrapper {
     position: relative;
@@ -262,7 +261,7 @@ body {
 .slider-wrapper .image-list {
     display: grid;
     gap: 18px;
-    margin-bottom: 25px;
+    margin-bottom: px;
     overflow-x: auto;
     scrollbar-width: none;
     grid-template-columns: repeat(10, 1fr);
@@ -301,11 +300,10 @@ body {
     width: 95%;
 }
 .containers h1 {
-    margin-top: 70px;
-    margin-bottom: 10px;
+    margin-bottom: 5px;
 }
 .containers p {
-    margin-bottom: 30px;
+    margin-bottom: 20px;
 }
 .slider-wrappers {
     position: relative;
@@ -477,11 +475,7 @@ body {
     width: 95%;
 }
 .container-2 h1 {
-    padding-top: 14px;
-    margin-bottom: 10px;
-}
-.container-2 p {
-    margin-bottom: 30px;
+    padding-bottom: 30px;
 }
 .slider-wrapper-2 {
     position: relative;
@@ -553,7 +547,6 @@ body {
 .travel-choice {
     display: flex;
     justify-content: center;
-    margin-top: 30px;
     background-color: rgb(255, 247, 225);
 }
 .travel-choice-card {
